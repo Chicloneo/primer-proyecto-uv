@@ -125,7 +125,7 @@ y aparece nuestro entorno virtual `.venv`. Además, cada vez que entremos a este
 
 ### ¡Ojo!
 
-Debemos añadir la carpeta `.venv/` a nuestro archivo `.gitignore` (esto es, los archivos que no queremos commitear). El entorno virtual está creado específicamente para nuestro ordenador, así que un usuario externo que descargue el proyecto no podrá activarlo. Por eso son importantes los archivos `.pyproject.toml` y `uv.lock`, que indican qué librerías y qué versiones son necesarias para el proyecto (como un `requirements.txt`).
+Debemos añadir la carpeta `.venv/` a nuestro archivo `.gitignore` (esto es, los archivos que no queremos commitear -puedes pedirle a la IA que te cree uno completo). El entorno virtual está creado específicamente para nuestro ordenador, así que un usuario externo que descargue el proyecto no podrá activarlo. Por eso son importantes los archivos `.pyproject.toml` y `uv.lock`, que indican qué librerías y qué versiones son necesarias para el proyecto (como un `requirements.txt`).
 
 ## Paso 4
 
